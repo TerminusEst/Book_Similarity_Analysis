@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Book Map</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="plotdiv" id="540f88b8-5e6e-4596-a41f-8587efb47ffe"></div>
+        </div>
+        
+        <script type="text/javascript">
+            Bokeh.$(function() {
+            Bokeh.safely(function() {
+                var docs_json = {"b898e3a7-0dad-43dc-bc89-c75673b734de":{"roots":{"references":[{"attributes":{"dimension":1,"plot":{"id":"4a81a660-338d-4ad1-8931-99472e23e6a4","subtype":"Figure","type":"Plot"},"ticker":{"id":"83b7ece1-01ec-41e7-a0b5-d8736fb0885f","type":"BasicTicker"}},"id":"607c8e74-8813-4630-8765-3dcf0d80d5cd","type":"Grid"},{"attributes":{"overlay":{"id":"28455fcd-493f-4332-8292-7513601f68a1","type":"BoxAnnotation"},"plot":{"id":"4a81a660-338d-4ad1-8931-99472e23e6a4","subtype":"Figure","type":"Plot"}},"id":"1d909020-8715-4829-b116-dbfa4a8a8f21","type":"BoxZoomTool"},{"attributes":{},"id":"2e04c60e-afed-44ad-beb3-495d45629626","type":"ToolEvents"},{"attributes":{"data_source":{"id":"44725173-ae20-479b-a354-6ed0f8427977","type":"ColumnDataSource"},"glyph":{"id":"c0dc1a15-8782-4393-a52c-9eb2baca1051","type":"Circle"},"hover_glyph":null,"nonselection_glyph":{"id":"9ef663f1-3143-4f70-9efa-c97d561bab6c","type":"Circle"},"selection_glyph":null},"id":"5ce0885b-c8b7-43b3-a916-6e911930c250","type":"GlyphRenderer"},{"attributes":{"plot":null,"text":"Project Gutenberg Book Map"},"id":"e4d2b45e-9921-40b0-be98-e7a81069bf25","type":"Title"},{"attributes":{},"id":"ecf43618-e7b9-45a3-be98-9fb09cf7af0d","type":"BasicTickFormatter"},{"attributes":{"fill_color":{"field":"colour"},"line_color":{"value":null},"size":{"units":"screen","value":7},"x":{"field":"x"},"y":{"field":"y"}},"id":"c0dc1a15-8782-4393-a52c-9eb2baca1051","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":7},"x":{"field":"x"},"y":{"field":"y"}},"id":"9ef663f1-3143-4f70-9efa-c97d561bab6c","type":"Circle"},{"attributes":{"callback":null,"plot":{"id":"4a81a660-338d-4ad1-8931-99472e23e6a4","subtype":"Figure","type":"Plot"},"tooltips":[["Author","@author"],["Title","@title"]]},"id":"9282013f-cefb-4d74-861a-230a974ae30e","type":"HoverTool"},{"attributes":{"callback":null},"id":"722e985a-704a-496c-8fe6-da26e05e8e77","type":"DataRange1d"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"28455fcd-493f-4332-8292-7513601f68a1","type":"BoxAnnotation"},{"attributes":{"callback":null},"id":"10bc24c9-76cf-478d-81d4-ead28964c8e3","type":"DataRange1d"},{"attributes":{"formatter":{"id":"1489a86e-31d0-4050-b56a-beab376fe1ae","type":"BasicTickFormatter"},"plot":{"id":"4a81a660-338d-4ad1-8931-99472e23e6a4","subtype":"Figure","type":"Plot"},"ticker":{"id":"dffed6fa-045e-44c6-9758-e5ae0ce5e94c","type":"BasicTicker"}},"id":"63640d1b-5c29-4797-aac3-e1ecdee4f9b3","type":"LinearAxis"},{"attributes":{},"id":"83b7ece1-01ec-41e7-a0b5-d8736fb0885f","type":"BasicTicker"},{"attributes":{"callback":null,"column_names":["title","y","colour","author","x"],"data":{"author":["J. E. Ibberson","Benjamin Franklin","Jonathan Swift","James Joyce","Henrik Ibsen","Charles Dickens","Mark Twain (Samuel Clemens)","Thomas Paine"," ","Bram Stoker","Lewis Carroll","Michel de Montaigne","Unknown","Charles Dickens"],"colour":["#ffff99","#beaed4","#beaed4","#7fc97f","#7fc97f","#7fc97f","#7fc97f","#beaed4","#beaed4","#beaed4","#386cb0","#beaed4","#fdc086","#beaed4"],"title":["Common Trees of Pennsylvania","Autobiography of Benjamin Franklin","A Modest Proposal","Dubliners","A Doll's House","A Christmas Carol","Adventures of Huckleberry Finn, Complete","Common Sense","Beowulf","Dracula","Alice\u2019s Adventures in Wonderland","The Essays of Montaigne, Complete","Unknown","A Tale of Two Cities"],"x":[1.8342379419581871,-2.176026842159698,2.975823434615464,-1.1177334621069626,2.2686089427637786,-0.850044520697343,0.43720474352787575,-1.1666457918278066,0.2234278318065755,-2.415189439276102,1.7003633774547953,-1.3101550547618517,1.9258123620580119,-2.329683523354924],"y":[1.1600644636308273,1.3888035625516448,0.26095129769055175,-1.2173598411027735,-0.9796254251154132,-2.458180685798897,-1.841799574112207,2.342243736459232,2.1610523732428213,-1.0300934534948691,-2.3173588512483465,0.5176694110718316,2.1565280399723203,-0.1428950537467234]}},"id":"44725173-ae20-479b-a354-6ed0f8427977","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"63640d1b-5c29-4797-aac3-e1ecdee4f9b3","type":"LinearAxis"}],"left":[{"id":"59880bbf-abda-4c7c-af82-7e3be3f6c8db","type":"LinearAxis"}],"plot_height":700,"plot_width":1000,"renderers":[{"id":"63640d1b-5c29-4797-aac3-e1ecdee4f9b3","type":"LinearAxis"},{"id":"f895622e-8ca2-4a0e-a163-5fd4b2e32327","type":"Grid"},{"id":"59880bbf-abda-4c7c-af82-7e3be3f6c8db","type":"LinearAxis"},{"id":"607c8e74-8813-4630-8765-3dcf0d80d5cd","type":"Grid"},{"id":"28455fcd-493f-4332-8292-7513601f68a1","type":"BoxAnnotation"},{"id":"5ce0885b-c8b7-43b3-a916-6e911930c250","type":"GlyphRenderer"}],"title":{"id":"e4d2b45e-9921-40b0-be98-e7a81069bf25","type":"Title"},"tool_events":{"id":"2e04c60e-afed-44ad-beb3-495d45629626","type":"ToolEvents"},"toolbar":{"id":"b9226a2d-7478-4f9e-8332-f6bfd6af6122","type":"Toolbar"},"toolbar_location":"below","x_range":{"id":"10bc24c9-76cf-478d-81d4-ead28964c8e3","type":"DataRange1d"},"y_range":{"id":"722e985a-704a-496c-8fe6-da26e05e8e77","type":"DataRange1d"}},"id":"4a81a660-338d-4ad1-8931-99472e23e6a4","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1489a86e-31d0-4050-b56a-beab376fe1ae","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"ecf43618-e7b9-45a3-be98-9fb09cf7af0d","type":"BasicTickFormatter"},"plot":{"id":"4a81a660-338d-4ad1-8931-99472e23e6a4","subtype":"Figure","type":"Plot"},"ticker":{"id":"83b7ece1-01ec-41e7-a0b5-d8736fb0885f","type":"BasicTicker"}},"id":"59880bbf-abda-4c7c-af82-7e3be3f6c8db","type":"LinearAxis"},{"attributes":{"plot":{"id":"4a81a660-338d-4ad1-8931-99472e23e6a4","subtype":"Figure","type":"Plot"}},"id":"5ae342be-d818-4e34-a6f0-090c2a1d7015","type":"ResetTool"},{"attributes":{},"id":"dffed6fa-045e-44c6-9758-e5ae0ce5e94c","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"9282013f-cefb-4d74-861a-230a974ae30e","type":"HoverTool"},{"id":"1d909020-8715-4829-b116-dbfa4a8a8f21","type":"BoxZoomTool"},{"id":"5ae342be-d818-4e34-a6f0-090c2a1d7015","type":"ResetTool"}]},"id":"b9226a2d-7478-4f9e-8332-f6bfd6af6122","type":"Toolbar"},{"attributes":{"plot":{"id":"4a81a660-338d-4ad1-8931-99472e23e6a4","subtype":"Figure","type":"Plot"},"ticker":{"id":"dffed6fa-045e-44c6-9758-e5ae0ce5e94c","type":"BasicTicker"}},"id":"f895622e-8ca2-4a0e-a163-5fd4b2e32327","type":"Grid"}],"root_ids":["4a81a660-338d-4ad1-8931-99472e23e6a4"]},"title":"Bokeh Application","version":"0.12.3"}};
+                var render_items = [{"docid":"b898e3a7-0dad-43dc-bc89-c75673b734de","elementid":"540f88b8-5e6e-4596-a41f-8587efb47ffe","modelid":"4a81a660-338d-4ad1-8931-99472e23e6a4"}];
+                
+                Bokeh.embed.embed_items(docs_json, render_items);
+            });
+        });
+        </script>
+    </body>
+</html>
